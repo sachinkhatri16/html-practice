@@ -4,17 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Exercises - My Simple Webpage</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 20px auto; padding: 0 15px; }
-    section { margin-bottom: 30px; border-bottom: 2px solid #ccc; padding-bottom: 20px; }
-    table { border-collapse: collapse; width: 100%; }
-    table, th, td { border: 1px solid #333; }
-    th, td { padding: 10px; text-align: left; }
-    caption { font-weight: bold; margin-bottom: 10px; font-size: 1.1em; }
-    nav a { margin-right: 15px; }
-    fieldset { margin-bottom: 15px; }
-    img { max-width: 100%; height: auto; }
-  </style>
 </head>
 <body>
 
@@ -61,7 +50,7 @@
     <form action="#" method="post">
 
       <!-- Text input for name -->
-      <div style="margin-bottom: 15px;">
+      <div>
         <label for="userName">Your Name:</label><br>
         <input type="text" id="userName" name="userName" placeholder="Enter your name" required>
       </div>
@@ -84,7 +73,7 @@
       </fieldset>
 
       <!-- Textarea for comments -->
-      <div style="margin-bottom: 15px;">
+      <div>
         <label for="comments">Additional Comments:</label><br>
         <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea>
       </div>
@@ -143,7 +132,7 @@
     Purpose: Contains the main title and a brief description of the page.
     It introduces the content and helps users understand what the page is about.
   -->
-  <header style="background: #f4f4f4; padding: 15px; margin-bottom: 15px;">
+  <header>
     <h1>Semantic HTML5 Demo Page</h1>
     <p>This page demonstrates the use of semantic HTML5 elements for better structure and accessibility.</p>
   </header>
@@ -153,20 +142,20 @@
     Purpose: Contains navigation links to different parts of the website.
     It helps users easily navigate between pages or sections.
   -->
-  <nav style="background: #333; color: #fff; padding: 10px; margin-bottom: 15px;">
-    <a href="#" style="color: #fff;">Home</a>
-    <a href="#" style="color: #fff;">About Us</a>
-    <a href="#" style="color: #fff;">Services</a>
-    <a href="#" style="color: #fff;">Contact</a>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
   </nav>
 
-  <main style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <main>
     <!-- 
       ARTICLE SECTION: 
       Purpose: Contains the main content of the page, typically a self-contained 
       piece of content that could be distributed independently (like a blog post or news article).
     -->
-    <article style="flex: 2; min-width: 300px; background: #e9e9e9; padding: 15px;">
+    <article>
       <h2>Understanding Semantic HTML</h2>
       <p>Semantic HTML refers to the use of HTML tags that convey the meaning of the content, not just how it looks. Examples include &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;aside&gt;, and &lt;footer&gt;.</p>
       <p>Using semantic elements improves accessibility for screen readers, helps search engines understand your content better (SEO), and makes your code easier to read and maintain.</p>
@@ -177,7 +166,7 @@
       Purpose: Contains secondary content that is related to the main content but 
       can stand alone. Often used for sidebars, related links, or additional information.
     -->
-    <aside style="flex: 1; min-width: 200px; background: #d4d4d4; padding: 15px;">
+    <aside>
       <h3>Related Topics</h3>
       <ul>
         <li>HTML5 New Features</li>
@@ -193,7 +182,7 @@
     Purpose: Contains footer information such as contact details, copyright notice,
     and links to privacy policy or terms of service. It appears at the bottom of the page.
   -->
-  <footer style="background: #333; color: #fff; padding: 15px; margin-top: 20px; text-align: center;">
+  <footer>
     <p>Contact: info@example.com | Phone: +1 (555) 123-4567</p>
     <p>&copy; 2026 My Simple Webpage. All rights reserved.</p>
   </footer>
