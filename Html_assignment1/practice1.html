@@ -7,9 +7,6 @@
 </head>
 <body>
 
-  <!-- ============================================== -->
-  <!-- EXERCISE 1: Create a Simple Web Page          -->
-  <!-- ============================================== -->
   <section>
     <h1>Welcome to My Simple Webpage</h1>
     <h2>About This Page</h2>
@@ -42,20 +39,16 @@
     </figure>
   </section>
 
-  <!-- ============================================== -->
-  <!-- EXERCISE 2: Building a Form                   -->
-  <!-- ============================================== -->
   <section>
     <h2>Contact Form</h2>
     <form action="#" method="post">
 
-      <!-- Text input for name -->
       <div>
         <label for="userName">Your Name:</label><br>
         <input type="text" id="userName" name="userName" placeholder="Enter your name" required>
       </div>
 
-      <!-- Radio buttons for gender -->
+      
       <fieldset>
         <legend>Gender:</legend>
         <label><input type="radio" name="gender" value="male"> Male</label><br>
@@ -63,7 +56,6 @@
         <label><input type="radio" name="gender" value="other"> Other</label>
       </fieldset>
 
-      <!-- Checkboxes for hobbies -->
       <fieldset>
         <legend>Favorite Hobbies:</legend>
         <label><input type="checkbox" name="hobbies" value="reading"> Reading</label><br>
@@ -72,21 +64,16 @@
         <label><input type="checkbox" name="hobbies" value="music"> Music</label>
       </fieldset>
 
-      <!-- Textarea for comments -->
       <div>
         <label for="comments">Additional Comments:</label><br>
         <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea>
       </div>
 
-      <!-- Submit button -->
       <button type="submit">Submit</button>
 
     </form>
   </section>
 
-  <!-- ============================================== -->
-  <!-- EXERCISE 3: HTML Tables                       -->
-  <!-- ============================================== -->
   <section>
     <h2>People Directory Table</h2>
     <table>
@@ -110,7 +97,6 @@
           <td>Los Angeles</td>
         </tr>
         <tr>
-          <!-- Merging cells: colspan example - spans 2 columns -->
           <td colspan="2">Michael Johnson (Age: 45)</td>
           <td>Chicago</td>
         </tr>
@@ -123,25 +109,11 @@
     </table>
   </section>
 
-  <!-- ============================================== -->
-  <!-- EXERCISE 4: HTML Semantic Elements            -->
-  <!-- ============================================== -->
-
-  <!-- 
-    HEADER SECTION: 
-    Purpose: Contains the main title and a brief description of the page.
-    It introduces the content and helps users understand what the page is about.
-  -->
   <header>
     <h1>Semantic HTML5 Demo Page</h1>
     <p>This page demonstrates the use of semantic HTML5 elements for better structure and accessibility.</p>
   </header>
 
-  <!-- 
-    NAVIGATION SECTION: 
-    Purpose: Contains navigation links to different parts of the website.
-    It helps users easily navigate between pages or sections.
-  -->
   <nav>
     <a href="#">Home</a>
     <a href="#">About Us</a>
@@ -150,22 +122,12 @@
   </nav>
 
   <main>
-    <!-- 
-      ARTICLE SECTION: 
-      Purpose: Contains the main content of the page, typically a self-contained 
-      piece of content that could be distributed independently (like a blog post or news article).
-    -->
     <article>
       <h2>Understanding Semantic HTML</h2>
       <p>Semantic HTML refers to the use of HTML tags that convey the meaning of the content, not just how it looks. Examples include &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;aside&gt;, and &lt;footer&gt;.</p>
       <p>Using semantic elements improves accessibility for screen readers, helps search engines understand your content better (SEO), and makes your code easier to read and maintain.</p>
     </article>
 
-    <!-- 
-      ASIDE SECTION: 
-      Purpose: Contains secondary content that is related to the main content but 
-      can stand alone. Often used for sidebars, related links, or additional information.
-    -->
     <aside>
       <h3>Related Topics</h3>
       <ul>
@@ -177,14 +139,9 @@
     </aside>
   </main>
 
-  <!-- 
-    FOOTER SECTION: 
-    Purpose: Contains footer information such as contact details, copyright notice,
-    and links to privacy policy or terms of service. It appears at the bottom of the page.
-  -->
   <footer>
     <p>Contact: info@example.com | Phone: +1 (555) 123-4567</p>
-    <p>&copy; 2026 My Simple Webpage. All rights reserved.</p>
+    <p>2026 My Simple Webpage. All rights reserved.</p>
   </footer>
 
 </body>
